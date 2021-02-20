@@ -11,3 +11,5 @@ user={
 }
 
 data.insert(user)
+
+data.truncate()
