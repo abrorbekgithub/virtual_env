@@ -10,6 +10,12 @@ user={
     "phone":123
 }
 
-data.insert(user)
+user1={
+    "name":"asror",
+    "young":22,
+    "phone":13
+}
 
-data.truncate()
+data.insert(user)
+data.insert(user1)
+# data.truncate()
