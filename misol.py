@@ -8,6 +8,6 @@ user=Query()
 
 result=db.search(user.dob.age>65)
 for i in result:
-    print(i["gender"],i["name"]["first"])
+    print(i["gender"],i["name"]["first"],i["location"]["city"])
 
 # print(result[0])
